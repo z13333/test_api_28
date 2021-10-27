@@ -62,4 +62,4 @@ class TestUserManagerCase(unittest.TestCase):
     # @unittest.skip('暂时跳过')
     def test03_get_user(self):
         result = self.user.get_user()
-        self.assertEqual(0, result.get("errno"))
+        self.assertEqual(402, result.get("errno"))
